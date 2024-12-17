@@ -283,11 +283,12 @@ nav {
 }
 
 .section-title {
+     color:black;
     text-align: center;
     font-size: 2rem;
     padding-top: 20px;
     margin-bottom: var(--spacing-xl);
-    color: var(--text-primary);
+/*     color: var(--text-primary); */
 }
 
 .skills-grid {
