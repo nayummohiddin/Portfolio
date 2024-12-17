@@ -750,7 +750,8 @@ button:hover {
 /* Dark Mode Adjustments */
 @media (prefers-color-scheme: dark) {
     .skill-card {
-        background: #1F2937;
+        font-size: 0.9rem;
+        background: white;
         border-color: rgba(255, 255, 255, 0.1);
     }
 
