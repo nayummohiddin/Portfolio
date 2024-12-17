@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+
+    <!-- favicon-->
+    <link rel="icon" href="assets/favicon.jpg">
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <!-- Add a background wrapper div -->
+    <div class="background-wrapper">
+        <!-- Header Section -->
+        <header>
+            <nav>
+                <!-- Logo -->
+                <div class="logo">
+                    <h1>Portfolio</h1>
+                </div>
+
+                <!-- Navigation Menu -->
+                <div class="nav-menu">
+                    <button class="hamburger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </button>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#skills">Skills</a></li>
+                        <li><a href="#projects">Projects</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <main>
+            <section class="hero" id="home">
+                <!-- Left Content -->
+                <div class="hero-content">
+                    <div class="greeting-text">
+                        <p class="greeting">Hello! 👋</p>
+                        <h2 class="name-container">
+                            <span class="im-text">I'M</span>
+                            <span class="gradient-name">NAYUMMOHIDDIN SHAIK</span>
+                        </h2>
+                        <h3 class="designation">Java Full Stack Developer</h3>
+                        <p class="description">
+                            A passionate web developer focused on creating interactive and user-friendly websites
+                        </p>
+                    </div>
+                    <button onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Let's
+                        Talk</button>
+                </div>
+                <!-- Right Content -->
+                <div class="hero-image">
+                    <div class="floating-text creation">Creation</div>
+                    <div class="floating-text responsive">Responsive</div>
+                    <div class="image-container">
+                        <div class="background-shape"></div>
+                        <img src="assets/hero.png" alt="Screen mockups illustration">
+                    </div>
+                </div>
+            </section>
+        </main>
+    </div>
+    <!-- Rest of the sections -->
+    <div class="dark-sections-wrapper">
+        <!-- About Section -->
+        <section class="about" id="about">
+            <h2 class="section-title">About</h2>
+            <p class="about-description">
+                I Completed my B.sc in Computer Science from National Degree College, Nandyal. I am a passionate and
+                dedicated individual with a strong foundation in computer science and keen interest in learning new
+                technologies.Recently I have completed a 6 months internship in Java Full Stack Development at Tap
+                Academy, Bangalore.
+                <br> Coding is my passion, especially in Java, and I have a solid understanding of Java Full Stack
+                Development. I am a quick learner and a team player, always seeking new challenges and opportunities
+                to grow. I am eager to bring my skills,dedication and enthusiasm to any project and contribute to
+                the success of the team.
+            </p>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills" id="skills">
+            <h2 class="section-title">My Skills</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="java-wrapper">
+                        <img src="https://www.vectorlogo.zone/logos/java/java-icon.svg" alt="Java Logo"
+                            class="java-logo">
+                        <h3>Java</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="js-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png"
+                            alt="JavaScript Logo" class="js-logo">
+                        <h3>JavaScript</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="mysql-wrapper">
+                        <img src="https://www.mysql.com/common/logos/logo-mysql-170x115.png" alt="MySQL Logo"
+                            class="mysql-logo">
+                        <h3>MySQL</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="python-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg"
+                            alt="Python Logo" class="python-logo">
+                        <h3>Python</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <i class="fab fa-html5"></i>
+                    <h3>HTML5</h3>
+                </div>
+                <!-- <div class="skill-card">
+                    <i class="fab fa-css3-alt"></i><br><br>
+                    <h3>CSS3</h3>
+                </div> -->
+                <div class="skill-card">
+                    <div class="spring-wrapper">
+                        <img src="assets/css3.png" alt="CSS3-logo"
+                            class="css-logo">
+                        <h3>CSS3</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="spring-wrapper">
+                        <img src="assets/springboot.png" alt="Spring Boot Logo"
+                            class="spring-logo">
+                        <h3>Spring Boot</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="hibernate-wrapper">
+                        <img src="https://hibernate.org/images/hibernate_icon_whitebkg.svg" alt="Hibernate Logo"
+                            class="hibernate-logo"><br><br>
+                        <h3>Hibernate</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="c-wrapper">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png" alt="C Language Logo"
+                            class="c-logo">
+                        <h3>C Language</h3>
+                    </div>
+                </div>
+                <div class="skill-card">
+                    <div class="restapi-wrapper">
+                        <img src="assets/rest-api-icon.png" alt="Rest-Api"
+                            class="hibernate-logo"><br><br>
+                        <h3>RESTful API</h3>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </div>
+
+    <!-- Projects Section -->
+    <section class="projects" id="projects">
+        <h2 class="section-title">My Projects</h2>
+
+        <div class="projects-container">
+            <button class="nav-arrow prev">
+                <i class="fas fa-chevron-left"></i>
+            </button>
+
+            <div class="projects-wrapper">
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/ecommerce.jpg" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Frontend</span>
+                               
+                                <span>Database</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>E-Commerce Platform</h3><br>
+                        <p>A fully functional and responsive e-commerce platform that allows users to browse products,
+                            add items to their cart. Built using Frontend Technologies(HTML, CSS, and JavaScript), Database(MySql), the website features an
+                            intuitive user interface and a smooth shopping experience.</p><br><br>
+                        <div class="project-links">
+                            <a href="https://nayummohiddin.github.io/Ecommerce/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Repeat for other projects -->
+                <!-- Project 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/HMS.png" alt="Project 2">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Frontend</span>
+                                <span>Java Backend</span>
+                                <span>DataBase</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Hospital Management System</h3>
+                        <p>A web-based application designed to streamline hospital operations and improve patient care.
+                            It includes features for managing patients, appointments, medicines, and user roles (admin 
+                            and Doctor).Built using Frontend Technologies(HTML, CSS, and JavaScript), Backend(Hibernate, Spring Booot, REST API)and Database(MySql)</p>
+
+                        <div class="project-links">
+                            <a href="https://nayummohiddin.github.io/HospitalManagmentSystem/" target="_blank"
+                                class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards as needed -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/foodie.png" alt="Foodie Project">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Frontend</span>
+                              
+                                <span>MySql</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Foodie-Website</h3><br>
+                        <p>A visually appealing and responsive website designed for food lovers to explore recipes, and
+                            culinary delights. Built using Frontend Technologies(HTML, CSS, and JavaScript)and Database(MySql), the platform provides an engaging
+                            user experience with seamless navigation and interactive features.</p><br>
+                        <div class="project-links">
+                            <a href="https://nayummohiddin.github.io/Foodie/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- College Website -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/coolege.jpeg" alt="Weather App">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>JavaScript</span>
+                                <span>HTML5</span>
+                                <span>CSS3</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>College Website</h3>
+                        <p>A dynamic and responsive website designed to showcase essential information about a college, including courses, faculty, events, and facilities. Built using HTML, CSS, and JavaScript, the website delivers a user-friendly experience with intuitive navigation and visually appealing design.</p><br><br>
+                        <div class="project-links">
+                            <a href="https://nayummohiddin.github.io/College-Website/" target="_blank" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Blog Platform Project -->
+                <!-- <div class="project-card">
+                    <div class="project-image">
+                        <img src="assets/blog-platform.jpg" alt="Blog Platform">
+                        <div class="project-overlay">
+                            <div class="project-tech">
+                                <span>Spring Boot</span>
+                                <span>MySQL</span>
+                                <span>Thymeleaf</span>
+                                <span>Bootstrap</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>DevBlog Platform</h3>
+                        <p>A full-featured blogging platform with user authentication, markdown support, and comment
+                            system.
+                        </p>
+                        <div class="project-links">
+                            <a href="#" class="project-link">
+                                <i class="fas fa-external-link-alt"></i> View Project
+                            </a>
+                        </div>
+                    </div>
+                </div> -->
+            </div>
+
+            <button class="nav-arrow next">
+                <i class="fas fa-chevron-right"></i>
+            </button>
+        </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <div class="contact-container">
+            <!-- Left side - Text -->
+            <div class="contact-text">
+                <h2 class="section-title">Get In Touch</h2>
+                <p>Feel free to reach out to me for any questions or opportunities!</p>
+                <a href="assets/NAYUMMOHIDDIN_SHAIK_RESUME7.docx" download class="download-cv">
+                    <i class="fas fa-download"></i>
+                    Download CV
+                </a>
+            </div>
+
+            <!-- Right side - Form -->
+            <div class="contact-form">
+                <form id="contactForm">
+                    <div class="form-group">
+                        <input type="text" id="name" name="name" placeholder="Your Name" required>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    </div>
+                    <div class="form-group">
+                        <textarea id="message" name="message" placeholder="Your Message" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-btn">Send Message</button>
+                </form>
+
+                <!-- Social Media Icons -->
+                <div class="social-links">
+                    <a href="mailto:nayummohiddin786.gmail@gmail.com" class="social-icon"><i
+                            class="far fa-envelope"></i></a>
+                    <a href="https://www.linkedin.com/in/nayummohiddin-shaik-64348a241/" target="_blank" class="social-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="#" class="social-icon"><i class="fab fa-twitter"></i></a>
+                    <a href="" class="social-icon"><i class="fab fa-github"></i></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- After the contact section and before the closing body tag -->
+    <footer class="footer">
+        <div class="footer-content">
+            <p class="copyright">© 2024 Portfolio. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
