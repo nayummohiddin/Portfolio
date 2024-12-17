@@ -749,8 +749,11 @@ button:hover {
 
 /* Dark Mode Adjustments */
 @media (prefers-color-scheme: dark) {
-    .skill-card {
+     .fab, .hibernate-wrapper{
         font-size: 0.9rem;
+    }
+    .skill-card {
+       
         background: white;
         border-color: rgba(255, 255, 255, 0.1);
     }
