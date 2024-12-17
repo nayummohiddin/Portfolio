@@ -456,7 +456,7 @@ button:hover {
 /* Dark Mode Support */
 @media (prefers-color-scheme: dark) {
     :root {
-        --light: #F7FAFC;
+       --light: #aed2e9;
         --dark: #F9FAFB;
         --text-primary: #F9FAFB;
         --text-secondary: #D1D5DB;
